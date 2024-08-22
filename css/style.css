@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  display: flex;
+  flex-basis: 100%;
+  width: 100%;
+}
+
+#root {
+  position: relative;
+}
+
+body button:not(:disabled) {
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+body label {
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.hello {
+  border: 1px solid red;
+   /*left: 109px; 
+   top: 191px; 
+   position: absolute;*/
+   /*text-align: center;*/
+   color: black; 
+   font-size: 64px; 
+   font-family: Jost;
+  font-weight: 400;
+  /*word-wrap: break-word;*/
+  width: 1000px;
+}
+
+.hello2 {
+  border: 1px solid red;
+   /*left: 109px; 
+   top: 191px; 
+   position: absolute;*/
+   /*text-align: center;*/
+   color: black; 
+   font-size: 32px; 
+   font-family: Jost;
+  font-weight: 400;
+  /*word-wrap: break-word;*/
+  width: 900px;
+}
