@@ -31,23 +31,37 @@ body label {
 
 .hello {
   border: 1px solid red;
-   /*left: 109px; 
-   top: 191px; 
-   position: absolute;*/
+   /*left: 109px; */
+   top: 500px; 
+   /*position:static;*/
    /*text-align: center;*/
    color: black; 
    font-size: 64px; 
    font-family: Jost;
   font-weight: 400;
   /*word-wrap: break-word;*/
-  width: 1000px;
+  width: 1514px;
+  
+}
+.helloA {
+  border: 1px solid red;
+   /*left: 109px;*/ 
+   top: 500px; 
+   position: absolute;
+   /*text-align: center;*/
+   /*color: black; 
+   font-size: 32px;*/
+   font-family: Jost;
+  font-weight: 400;
+  /*word-wrap: break-word;*/
+  width: 900px;
 }
 
 .hello2 {
   border: 1px solid red;
-   /*left: 109px; 
-   top: 191px; 
-   position: absolute;*/
+   /*left: 109px;*/ 
+   top: 500px; 
+   position: absolute;
    /*text-align: center;*/
    color: black; 
    font-size: 32px; 
@@ -56,3 +70,46 @@ body label {
   /*word-wrap: break-word;*/
   width: 900px;
 }
+
+.contactme {
+  border: 1px solid red;
+   left: 1260px;
+    top: 44px; 
+    position: absolute; 
+    color: white; 
+    font-size: 36px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word;
+    width: 200px;
+    
+}
+
+.hello3 {
+  border: 1px solid red;
+   /*left: 109px;*/ 
+   top: 235px; 
+   position:absolute;
+   /*text-align: center;*/
+   color: black; 
+   font-size: 64px; 
+   font-family: Jost;
+  font-weight: 400;
+  /*word-wrap: break-word;*/
+  width: 900px;
+}
+
+.hello4 {
+  border: 1px solid red;
+   /*left: 109px;*/ 
+   top: 235px; 
+   position:absolute;
+   /*text-align: center;*/
+   color: black; 
+   font-size: 64px; 
+   font-family: Jost;
+  font-weight: 400;
+  /*word-wrap: break-word;*/
+  width: 900px;
+}
+
